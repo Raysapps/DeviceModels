@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipappsensorsreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
   "@type": "Interface",
   "displayName": "SensorsDTMI",
   "contents": [

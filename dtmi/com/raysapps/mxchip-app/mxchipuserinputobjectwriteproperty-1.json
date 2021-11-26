@@ -1,130 +1,130 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipuserinputobjectwriteproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipuserinputobjectwriteproperty;1",
   "@type": "Interface",
   "displayName": "MxChipApp RaysApps ProtoType",
   "description": "ProtoType Model for the Azure RTOS MXCHIP",
   "schemas": [
     {
-        "@id": "dtmi:com:raysapps:mxchipdisplaytype;1",
-        "@type": "Enum",
-         "valueSchema": "integer",
-            "enumValues": [
-                {
-                    "name": "MessageCountFormat",
-                    "displayName": "MessageCountFormat",
-                    "enumValue": 1
-                },
-                {
-                    "name": "FirmWareFormat",
-                    "displayName": "FirmWareFormat",
-                    "enumValue": 2
-                },
-                {
-                    "name": "WifiStatusFormat",
-                    "displayName": "WifiStatusFormat",
-                    "enumValue": 3
-                },
-                {
-                    "name": "SensorInfoFormat",
-                    "displayName": "SensorInfoFormat",
-                    "enumValue": 4
-                },
-                {
-                    "name": "TelemetryWindFrequencyFormat",
-                    "displayName": "TelemetryWindFrequencyFormat",
-                    "enumValue": 5
-                },
-                {
-                    "name": "ReportedFrequencyFormat",
-                    "displayName": "ReportedFrequencyFormat",
-                    "enumValue": 6
-                },
-                {
-                    "name": "WindSpeedFormat",
-                    "displayName": "WindSpeedFormat",
-                    "enumValue": 7
-                },
-                {
-                    "name": "WindStateFormat",
-                    "displayName": "WindStateFormat",
-                    "enumValue": 8
-                },
-                {
-                    "name": "ReportedCountFormat",
-                    "displayName": "ReportedCountFormat",
-                    "enumValue": 9
-                },
-                {
-                    "name": "Version",
-                    "displayName": "Version",
-                    "enumValue": 10
-                }
-            ]
+      "@id": "dtmi:com:raysapps:mxchipapp:mxchipdisplaytype;1",
+      "@type": "Enum",
+      "valueSchema": "integer",
+      "enumValues": [
+        {
+          "name": "MessageCountFormat",
+          "displayName": "MessageCountFormat",
+          "enumValue": 1
+        },
+        {
+          "name": "FirmWareFormat",
+          "displayName": "FirmWareFormat",
+          "enumValue": 2
+        },
+        {
+          "name": "WifiStatusFormat",
+          "displayName": "WifiStatusFormat",
+          "enumValue": 3
+        },
+        {
+          "name": "SensorInfoFormat",
+          "displayName": "SensorInfoFormat",
+          "enumValue": 4
+        },
+        {
+          "name": "TelemetryWindFrequencyFormat",
+          "displayName": "TelemetryWindFrequencyFormat",
+          "enumValue": 5
+        },
+        {
+          "name": "ReportedFrequencyFormat",
+          "displayName": "ReportedFrequencyFormat",
+          "enumValue": 6
+        },
+        {
+          "name": "WindSpeedFormat",
+          "displayName": "WindSpeedFormat",
+          "enumValue": 7
+        },
+        {
+          "name": "WindStateFormat",
+          "displayName": "WindStateFormat",
+          "enumValue": 8
+        },
+        {
+          "name": "ReportedCountFormat",
+          "displayName": "ReportedCountFormat",
+          "enumValue": 9
+        },
+        {
+          "name": "Version",
+          "displayName": "Version",
+          "enumValue": 10
+        }
+      ]
     },
     {
-        "@id": "dtmi:com:raysapps:mxchipuserinputobject;1",
-        "@type": "Object",
-        "fields": [
-        
-            {
-                "name": "screenFormat1",
-                "schema": "dtmi:com:raysapps:mxchipdisplaytype;1"
-            },
-            {
-                "name": "screenFormat2",
-                "schema": "dtmi:com:raysapps:mxchipdisplaytype;1"
-            },
-            {
-                "name": "screenFormat3",
-                "schema": "dtmi:com:raysapps:mxchipdisplaytype;1"
-            },
-            {
-                "name":"rgbLEDB",
-                "schema": "integer"
-            },
-            {
-                "name":"rgbLEDG",
-                "schema": "integer"
-            },
-            {
-                "name":"rgbLEDR",
-                "schema": "integer"
-            },
-            {
-                "name":"rgbLEDState",
-                "schema": "integer"
-            },
-            {
-                "name":"userLEDState",
-                "schema": "integer"
-            },
-            {
-                "name":"telemetryFrequency",
-                "schema": "integer"
-            },
-            {
-                "name":"reportedFrequency",
-                "schema": "integer"
-            }
+      "@id": "dtmi:com:raysapps:mxchipapp:mxchipuserinputobject;1",
+      "@type": "Object",
+      "fields": [
 
-        ]
+        {
+          "name": "screenFormat1",
+          "schema": "dtmi:com:raysapps:mxchipapp:mxchipdisplaytype;1"
+        },
+        {
+          "name": "screenFormat2",
+          "schema": "dtmi:com:raysapps:mxchipapp:mxchipdisplaytype;1"
+        },
+        {
+          "name": "screenFormat3",
+          "schema": "dtmi:com:raysapps:mxchipapp:mxchipdisplaytype;1"
+        },
+        {
+          "name": "rgbLEDB",
+          "schema": "integer"
+        },
+        {
+          "name": "rgbLEDG",
+          "schema": "integer"
+        },
+        {
+          "name": "rgbLEDR",
+          "schema": "integer"
+        },
+        {
+          "name": "rgbLEDState",
+          "schema": "integer"
+        },
+        {
+          "name": "userLEDState",
+          "schema": "integer"
+        },
+        {
+          "name": "telemetryFrequency",
+          "schema": "integer"
+        },
+        {
+          "name": "reportedFrequency",
+          "schema": "integer"
+        }
+
+      ]
     }
-],
+  ],
 
-"contents": [
-  {
-    "@type": "Property",
-    "name": "MxChipUserInput",
-    "displayName": "MxChipUserInput",
-    "schema": "dtmi:com:raysapps:mxchipuserinputobject;1",
-    "writable": true
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "MxChipUserInput",
+      "displayName": "MxChipUserInput",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinputobject;1",
+      "writable": true
 
-  }
-]
-    
- 
-  
-  
+    }
+  ]
+
+
+
+
 }
 

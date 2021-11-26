@@ -1,38 +1,38 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipappaccelerationtelemetry;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationtelemetry;1",
   "@type": "Interface",
   "displayName": "AccelerationDTMI",
   "contents": [
     {
       "@type": [
-          "Telemetry",
-          "Acceleration"
+        "Telemetry",
+        "Acceleration"
       ],
       "name": "accelerometerX",
       "displayName": "Accelerometer X",
       "schema": "double",
       "unit": "gForce"
-  },
-  {
+    },
+    {
       "@type": [
-          "Telemetry",
-          "Acceleration"
+        "Telemetry",
+        "Acceleration"
       ],
       "name": "accelerometerY",
       "displayName": "Accelerometer Y",
       "schema": "double",
       "unit": "gForce"
-  },
-  {
+    },
+    {
       "@type": [
-          "Telemetry",
-          "Acceleration"
+        "Telemetry",
+        "Acceleration"
       ],
       "name": "accelerometerZ",
       "displayName": "Accelerometer Z",
       "schema": "double",
       "unit": "gForce"
-  }
+    }
   ]
 }

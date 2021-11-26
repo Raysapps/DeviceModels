@@ -1,11 +1,11 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:example:mxchipuserinputwriteproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipuserinputwriteproperty;1",
   "@type": "Interface",
   "displayName": "MxChipUserInputWriteProperty",
   "schemas": [
     {
-      "@id": "dtmi:com:raysapps:mxchipinputdisplaytype;1",
+      "@id": "dtmi:com:raysapps:mxchipapp:mxchipinputdisplaytype;1",
       "@type": "Enum",
       "valueSchema": "integer",
       "enumValues": [
@@ -73,28 +73,28 @@
 
       "@type": "Property",
       "name": "screenFormat1",
-      "schema": "dtmi:com:raysapps:mxchipinputdisplaytype;1",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipinputdisplaytype;1",
       "writable": true
     },
     {
 
       "@type": "Property",
       "name": "screenFormat2",
-      "schema": "dtmi:com:raysapps:mxchipinputdisplaytype;1",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipinputdisplaytype;1",
       "writable": true
     },
     {
 
       "@type": "Property",
       "name": "screenFormat3",
-      "schema": "dtmi:com:raysapps:mxchipinputdisplaytype;1",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipinputdisplaytype;1",
       "writable": true
     },
     {
 
       "@type": "Property",
       "name": "rgbLEDB",
-      "schema": "dtmi:com:raysapps:mxchipinputdisplaytype;1",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipinputdisplaytype;1",
       "writable": true
     },
     {

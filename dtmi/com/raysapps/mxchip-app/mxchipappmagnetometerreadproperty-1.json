@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipappmagnetometerreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappmagnetometerreadproperty;1",
   "@type": "Interface",
   "displayName": "Magnetometer",
   "contents": [

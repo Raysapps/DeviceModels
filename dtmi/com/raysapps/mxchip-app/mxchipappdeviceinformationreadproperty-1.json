@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipappdeviceinformationreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappdeviceinformationreadproperty;1",
   "@type": "Interface",
   "displayName": "Device Information",
   "contents": [

@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipappangularvelocityreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappangularvelocityreadproperty;1",
   "@type": "Interface",
   "displayName": "AngularVelocityDTMI",
   "contents": [

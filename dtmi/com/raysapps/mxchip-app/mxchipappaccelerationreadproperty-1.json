@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipappaccelerationreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationreadproperty;1",
   "@type": "Interface",
   "displayName": "AccelerationDTMI",
   "contents": [
