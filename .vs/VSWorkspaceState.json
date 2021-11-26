@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dtmi",
+    "\\dtmi\\com",
+    "\\dtmi\\com\\raysapps",
+    "\\dtmi\\com\\raysapps\\remote-mxchip-app"
   ],
+  "SelectedNode": "\\dtmi\\com\\raysapps\\remote-mxchip-app",
   "PreviewInSolutionExplorer": false
 }

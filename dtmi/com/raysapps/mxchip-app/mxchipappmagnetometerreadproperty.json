@@ -1,0 +1,26 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:mxchipappmagnetometerreadproperty;1",
+  "@type": "Interface",
+  "displayName": "Magnetometer",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "magnetometerX",
+      "displayName": "Magnetometer X / mgauss",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "magnetometerY",
+      "displayName": "Magnetometer Y / mgauss",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "magnetometerZ",
+      "displayName": "Magnetometer Z / mgauss",
+      "schema": "double"
+    }
+  ]
+}
