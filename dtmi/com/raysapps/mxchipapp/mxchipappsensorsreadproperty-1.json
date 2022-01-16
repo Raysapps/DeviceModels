@@ -2,8 +2,16 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
   "@type": "Interface",
-  "displayName": "SensorsDTMI",
+  "displayName": "Sensors",
   "contents": [
+    {
+      "@type": [
+        "Property"
+      ],
+      "name": "timeStamp",
+      "displayName": "DeviceTime",
+      "schema": "string"
+    },
     {
       "@type": [
         "Property",
@@ -33,6 +41,86 @@
       "displayName": "Pressure",
       "unit": "kilopascal",
       "schema": "double"
+    },
+    {
+      "@type": [
+        "Property",
+        "Acceleration"
+      ],
+      "name": "accelerometerX",
+      "displayName": "Accelerometer X",
+      "schema": "double",
+      "unit": "gForce"
+    },
+    {
+      "@type": [
+        "Property",
+        "Acceleration"
+      ],
+      "name": "accelerometerY",
+      "displayName": "Accelerometer Y",
+      "schema": "double",
+      "unit": "gForce"
+    },
+    {
+      "@type": [
+        "Property",
+        "Acceleration"
+      ],
+      "name": "accelerometerZ",
+      "displayName": "Accelerometer Z",
+      "schema": "double",
+      "unit": "gForce"
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "name": "gyroscopeX",
+      "displayName": "Gyroscope X",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "name": "gyroscopeY",
+      "displayName": "Gyroscope Y",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "name": "gyroscopeZ",
+      "displayName": "Gyroscope Z",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": "Property",
+      "name": "magnetometerX",
+      "displayName": "Magnetometer X / mgauss",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "magnetometerY",
+      "displayName": "Magnetometer Y / mgauss",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "magnetometerZ",
+      "displayName": "Magnetometer Z / mgauss",
+      "schema": "double"
     }
+
+
   ]
 }

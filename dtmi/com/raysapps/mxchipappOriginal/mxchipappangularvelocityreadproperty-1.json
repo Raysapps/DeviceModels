@@ -1,0 +1,38 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappangularvelocityreadproperty;1",
+  "@type": "Interface",
+  "displayName": "AngularVelocityDTMI",
+  "contents": [
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "name": "gyroscopeX",
+      "displayName": "Gyroscope X",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "name": "gyroscopeY",
+      "displayName": "Gyroscope Y",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "name": "gyroscopeZ",
+      "displayName": "Gyroscope Z",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    }
+  ]
+}

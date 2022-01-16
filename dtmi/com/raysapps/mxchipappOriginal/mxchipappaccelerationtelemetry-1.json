@@ -1,12 +1,12 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationtelemetry;1",
   "@type": "Interface",
-  "displayName": "Acceleration",
+  "displayName": "AccelerationDTMI",
   "contents": [
     {
       "@type": [
-        "Property",
+        "Telemetry",
         "Acceleration"
       ],
       "name": "accelerometerX",
@@ -16,7 +16,7 @@
     },
     {
       "@type": [
-        "Property",
+        "Telemetry",
         "Acceleration"
       ],
       "name": "accelerometerY",
@@ -26,7 +26,7 @@
     },
     {
       "@type": [
-        "Property",
+        "Telemetry",
         "Acceleration"
       ],
       "name": "accelerometerZ",

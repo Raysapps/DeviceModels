@@ -1,0 +1,90 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipapp;1",
+  "@type": "Interface",
+  "displayName": "MxChipApp",
+  "contents": [
+
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappsensorstelemetry;1",
+      "name": "SensorTelemetry",
+      "displayName": "Sensor Information",
+      "description": "Interface with Temperature, Humidity and Pressure Telemetry."
+    },
+
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappmagnetometertelemetry;1",
+      "name": "MagnetometerTelemetry",
+      "displayName": "Magnetometer Telemetry",
+      "description": "Interface with Magenetometer Telemetry."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationtelemetry;1",
+      "name": "AccelerometerTelemetry",
+      "displayName": "Accelerometer Information",
+      "description": "Interface with Accelerometer Telemetry."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappangularvelocitytelemetry;1",
+      "name": "AngularVelocityTelemetry",
+      "displayName": "Angular Velocity Telemetry",
+      "description": "Interface with Angular Velocity Telemetry."
+    },
+
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappdeviceinformationreadproperty;1",
+      "name": "deviceInformationReadProperty",
+      "displayName": "Device Information",
+      "description": "Interface with basic device hardware information."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappsensorstelemetry;1",
+      "name": "SensorReadProperty",
+      "displayName": "Sensor Information",
+      "description": "Interface with Temperature, Humidity and Pressure Telemetry."
+    },
+
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappmagnetometertelemetry;1",
+      "name": "MagnetometerReadProperty",
+      "displayName": "Magnetometer Telemetry",
+      "description": "Interface with Magenetometer Telemetry."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationtelemetry;1",
+      "name": "AccelerometerReadProperty",
+      "displayName": "Accelerometer Information",
+      "description": "Interface with Accelerometer Telemetry."
+    },
+{
+"@type": "Component",
+"schema": "dtmi:com:raysapps:mxchipapp:mxchipappangularvelocitytelemetry;1",
+"name": "AngularVelocityReadProperty",
+"displayName": "Angular Velocity Telemetry",
+"description": "Interface with Angular Velocity Telemetry."
+},
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinputwriteproperty;1",
+      "name": "MxChipUserInputProperties",
+      "displayName": "MxChip UserInput Properties",
+      "description": "Interface with MxChip User Input."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinputobjectwriteproperty;1",
+      "name": "MxChipUserInputObjectProperties",
+      "displayName": "MxChip UserInput Object Properties",
+      "description": "Interface with MxChip User Input."
+    }
+
+  ]
+}

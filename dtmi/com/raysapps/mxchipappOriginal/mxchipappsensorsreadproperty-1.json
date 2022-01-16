@@ -1,0 +1,38 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
+  "@type": "Interface",
+  "displayName": "SensorsDTMI",
+  "contents": [
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "name": "temperature",
+      "displayName": "Temperature",
+      "unit": "degreeCelsius",
+      "schema": "double"
+    },
+    {
+      "@type": [
+        "Property",
+        "RelativeHumidity"
+      ],
+      "name": "humidity",
+      "displayName": "Humidity",
+      "unit": "percent",
+      "schema": "double"
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "name": "pressure",
+      "displayName": "Pressure",
+      "unit": "kilopascal",
+      "schema": "double"
+    }
+  ]
+}

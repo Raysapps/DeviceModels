@@ -1,0 +1,26 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappmagnetometertelemetry;1",
+  "@type": "Interface",
+  "displayName": "MagnetometerDTMI",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "magnetometerX",
+      "displayName": "Magnetometer X / mgauss",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "magnetometerY",
+      "displayName": "Magnetometer Y / mgauss",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "magnetometerZ",
+      "displayName": "Magnetometer Z / mgauss",
+      "schema": "double"
+    }
+  ]
+}

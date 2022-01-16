@@ -4,7 +4,8 @@
     "\\dtmi",
     "\\dtmi\\com",
     "\\dtmi\\com\\raysapps",
-    "\\dtmi\\com\\raysapps\\remote-mxchip-app"
+    "\\dtmi\\com\\raysapps\\remotemxchipapp"
   ],
+  "SelectedNode": "\\dtmi\\com\\raysapps\\remotemxchipapp",
   "PreviewInSolutionExplorer": false
 }
