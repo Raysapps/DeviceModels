@@ -159,7 +159,7 @@
       "@type": "Command",
       "name": "GetSensorReportedPropInterval",
       "response": {
-        "name": "ReportedTime",
+        "name": "ReportedTimeInterval",
         "displayName": "Reported Time",
         "description": "The interval time at which the sensors properties are reported",
         "schema": "integer"

@@ -2,7 +2,7 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:raysapps:mxchipapp:mxchipappsensorstelemetry;1",
   "@type": "Interface",
-  "displayName": "SensorsDTMI",
+  "displayName": "Sensor Telemetry",
   "contents": [
     {
       "@type": [

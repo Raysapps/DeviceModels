@@ -1,30 +1,9 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipapp:mxchipapp;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappallsensorstelemetryproperty;1",
   "@type": "Interface",
-  "displayName": "MxChipApp",
+  "displayName": "Sensors",
   "contents": [
-    {
-      "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappdeviceinformationreadproperty;1",
-      "name": "deviceInfo",
-      "displayName": "Device Info",
-      "description": "MxChip Device Info"
-    },
-    {
-      "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinputwriteproperty;1",
-      "name": "mxChipUserInput",
-      "displayName": "MxChip UserInput Properties",
-      "description": "Interface with MxChip User Input."
-    },
-    {
-      "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
-      "name": "sensors",
-      "displayName": "Sensors",
-      "description": "MxChip Sensor Data"
-    },
     {
       "@type": [
         "Telemetry"
@@ -141,5 +120,7 @@
       "displayName": "Magnetometer Z / mgauss",
       "schema": "double"
     }
+
+
   ]
 }
