@@ -2,16 +2,8 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:raysapps:mxchipapp:mxchipappallsensorstelemetryproperty;1",
   "@type": "Interface",
-  "displayName": "Sensors",
+  "displayName": "sensors",
   "contents": [
-    {
-      "@type": [
-        "Telemetry"
-      ],
-      "name": "timeStamp",
-      "displayName": "DeviceTime",
-      "schema": "string"
-    },
     {
       "@type": [
         "Telemetry",

@@ -3,6 +3,67 @@
   "@id": "dtmi:com:raysapps:mxchipapp:mxchipapp;1",
   "@type": "Interface",
   "displayName": "MxChipApp",
+  "schemas": [
+    {
+      "@id": "dtmi:com:raysapps:mxchipapp:displaytype;1",
+      "@type": "Enum",
+      "valueSchema": "integer",
+      "displayName": "DisplayType",
+      "enumValues": [
+        {
+          "name": "Version",
+          "displayName": "Version",
+          "enumValue": 1
+        },
+        {
+          "name": "MessageCountFormat",
+          "displayName": "MessageCountFormat",
+          "enumValue": 2
+        },
+        {
+          "name": "FirmWareFormat",
+          "displayName": "FirmWareFormat",
+          "enumValue": 3
+        },
+        {
+          "name": "WifiStatusFormat",
+          "displayName": "WifiStatusFormat",
+          "enumValue": 4
+        },
+        {
+          "name": "SensorInfoFormat",
+          "displayName": "SensorInfoFormat",
+          "enumValue": 5
+        },
+        {
+          "name": "TelemetryWindFrequencyFormat",
+          "displayName": "TelemetryWindFrequencyFormat",
+          "enumValue": 6
+        },
+        {
+          "name": "ReportedFrequencyFormat",
+          "displayName": "ReportedFrequencyFormat",
+          "enumValue": 7
+        },
+        {
+          "name": "WindSpeedFormat",
+          "displayName": "WindSpeedFormat",
+          "enumValue": 8
+        },
+        {
+          "name": "WindStateFormat",
+          "displayName": "WindStateFormat",
+          "enumValue": 9
+        },
+        {
+          "name": "ReportedCountFormat",
+          "displayName": "ReportedCountFormat",
+          "enumValue": 10
+        }
+
+      ]
+    }
+  ],
   "contents": [
     {
       "@type": "Component",
@@ -13,133 +74,25 @@
     },
     {
       "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinputwriteproperty;1",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinput;1",
       "name": "mxChipUserInput",
-      "displayName": "MxChip UserInput Properties",
-      "description": "Interface with MxChip User Input."
+      "displayName": "MxChip User Input",
+      "description": "MxChip Device Info"
     },
     {
       "@type": "Component",
       "schema": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
       "name": "sensors",
-      "displayName": "Sensors",
-      "description": "MxChip Sensor Data"
+      "displayName": "Sensor Properties",
+      "description": "MxChip Sensors Info"
     },
     {
-      "@type": [
-        "Telemetry"
-      ],
-      "name": "timeStamp",
-      "displayName": "DeviceTime",
-      "schema": "string"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "Temperature"
-      ],
-      "name": "temperature",
-      "displayName": "Temperature",
-      "unit": "degreeCelsius",
-      "schema": "double"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "RelativeHumidity"
-      ],
-      "name": "humidity",
-      "displayName": "Humidity",
-      "unit": "percent",
-      "schema": "double"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "Pressure"
-      ],
-      "name": "pressure",
-      "displayName": "Pressure",
-      "unit": "kilopascal",
-      "schema": "double"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "Acceleration"
-      ],
-      "name": "accelerometerX",
-      "displayName": "Accelerometer X",
-      "schema": "double",
-      "unit": "gForce"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "Acceleration"
-      ],
-      "name": "accelerometerY",
-      "displayName": "Accelerometer Y",
-      "schema": "double",
-      "unit": "gForce"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "Acceleration"
-      ],
-      "name": "accelerometerZ",
-      "displayName": "Accelerometer Z",
-      "schema": "double",
-      "unit": "gForce"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "AngularVelocity"
-      ],
-      "name": "gyroscopeX",
-      "displayName": "Gyroscope X",
-      "schema": "double",
-      "unit": "degreePerSecond"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "AngularVelocity"
-      ],
-      "name": "gyroscopeY",
-      "displayName": "Gyroscope Y",
-      "schema": "double",
-      "unit": "degreePerSecond"
-    },
-    {
-      "@type": [
-        "Telemetry",
-        "AngularVelocity"
-      ],
-      "name": "gyroscopeZ",
-      "displayName": "Gyroscope Z",
-      "schema": "double",
-      "unit": "degreePerSecond"
-    },
-    {
-      "@type": "Telemetry",
-      "name": "magnetometerX",
-      "displayName": "Magnetometer X / mgauss",
-      "schema": "double"
-    },
-    {
-      "@type": "Telemetry",
-      "name": "magnetometerY",
-      "displayName": "Magnetometer Y / mgauss",
-      "schema": "double"
-    },
-    {
-      "@type": "Telemetry",
-      "name": "magnetometerZ",
-      "displayName": "Magnetometer Z / mgauss",
-      "schema": "double"
+      "@type": "Component",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappallsensorstelemetryproperty;1",
+      "name": "sensorTelemetry",
+      "displayName": "Sensor Telemetry",
+      "description": "MxChip Sensors Info"
     }
+
   ]
 }
