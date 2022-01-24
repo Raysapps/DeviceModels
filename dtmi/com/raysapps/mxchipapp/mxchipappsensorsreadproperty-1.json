@@ -4,15 +4,7 @@
   "@type": "Interface",
   "displayName": "Sensors",
   "contents": [
-    {
-      "@type": [
-        "Property"
-      ],
-      "name": "timeStamp",
-      "displayName": "DeviceTime",
-      "schema": "string"
-    },
-    {
+     {
       "@type": [
         "Property",
         "Temperature"
@@ -119,7 +111,91 @@
       "name": "magnetometerZ",
       "displayName": "Magnetometer Z / mgauss",
       "schema": "double"
+    },
+    {
+      "@type": "Command",
+      "name": "GetSensors",
+      "displayName": "GetSensors",
+      "description": "Fetch current Sensor data",
+      "response": {
+        "name": "Sensors",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "temperature",
+              "displayName": "Temperature",
+              "schema": "double"
+
+            },
+            {
+              "name": "humidity",
+              "displayName": "Humidity",
+              "schema": "double"
+            },
+            {
+              "name": "pressure",
+              "displayName": "Pressure",
+              "schema": "double"
+            },
+            {
+              "name": "accelerometerX",
+              "displayName": "Accelerometer X",
+              "schema": "double"
+            },
+            {
+              "name": "accelerometerY",
+              "displayName": "Accelerometer Y",
+              "schema": "double"
+            },
+            {
+              "name": "accelerometerZ",
+              "displayName": "Accelerometer Y",
+              "schema": "double"
+            },
+            {
+              "name": "gyroscopeX",
+              "displayName": "Gyroscope X",
+              "schema": "double"
+            },
+            {
+              "name": "gyroscopeY",
+              "displayName": "Gyroscope Y",
+              "schema": "double"
+            },
+            {
+              "name": "gyroscopeZ",
+              "displayName": "Gyroscope Z",
+              "schema": "double"
+            },
+            {
+              "name": "magnetometerX",
+              "displayName": "Magnetometer X / mgauss",
+              "schema": "double"
+            },
+            {
+              "name": "magnetometerY",
+              "displayName": "Magnetometer Y / mgauss",
+              "schema": "double"
+
+            },
+            {
+              "name": "magnetometerZ",
+              "displayName": "Magnetometer Z / mgauss",
+              "schema": "double"
+
+            }
+
+
+          ]
+        }
+      }
     }
+        
+     
+    
+
+
 
   ]
 }

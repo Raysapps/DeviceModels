@@ -179,6 +179,94 @@
         "description": "The interval time at which the sensors properties are reported",
         "schema": "integer"
       }
+    },
+    {
+      "@type": "Command",
+      "name": "GetConfiguration",
+      "displayName": "Configuration",
+      "description": "Fetches current configurtion on the device",
+      "response": {
+        "name": "Configuration",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "screenFormat1",
+              "displayName": "Display Line 1",
+              "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1"
+
+            },
+            {
+              "name": "screenFormat2",
+              "displayName": "Display Line 2",
+              "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1"
+
+            },
+            {
+              "name": "screenFormat3",
+              "displayName": "Display Line 3",
+              "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1"
+            },
+
+            {
+              "name": "rgbLEDR",
+              "displayName": "LED R Value",
+              "schema": "integer"
+
+            },
+            {
+              "name": "rgbLEDB",
+              "displayName": "LED B Value",
+              "schema": "integer"
+
+            },
+            {
+              "name": "rgbLEDG",
+              "displayName": "LED G Value",
+              "schema": "integer"
+
+            },
+            {
+              "name": "rgbLEDState",
+              "displayName": "LED State",
+              "schema": "boolean"
+
+            },
+            {
+              "name": "userLEDState",
+              "displayName": "LED State",
+              "schema": "boolean"
+
+            },
+            {
+              "name": "telemetryFrequencyInSeconds",
+              "displayName": "Telemetry Frequency",
+              "schema": "integer"
+
+            },
+            {
+              "name": "telemetryFrequencyState",
+              "displayName": "Telemetry Frequency State",
+              "schema": "boolean"
+
+            },
+            {
+              "name": "reportedFrequencyInSeconds",
+              "displayName": "Reported Frequency",
+              "schema": "integer"
+
+            },
+            {
+              "name": "reportedFrequencyState",
+              "displayName": "Reported Frequency State",
+              "schema": "boolean"
+
+            }
+
+          ]
+        }
+
+      }
     }
 
   ]
