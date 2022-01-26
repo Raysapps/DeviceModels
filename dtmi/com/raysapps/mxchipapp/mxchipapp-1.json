@@ -1,69 +1,8 @@
 {
-  "@context": "dtmi:dtdl:context;2",
+  "@context": "dtmi:dtdl:context;2",   
   "@id": "dtmi:com:raysapps:mxchipapp:mxchipapp;1",
   "@type": "Interface",
   "displayName": "MxChipApp",
-  "schemas": [
-    {
-      "@id": "dtmi:com:raysapps:mxchipapp:displaytype;1",
-      "@type": "Enum",
-      "valueSchema": "integer",
-      "displayName": "DisplayType",
-      "enumValues": [
-        {
-          "name": "Version",
-          "displayName": "Version",
-          "enumValue": 1
-        },
-        {
-          "name": "MessageCountFormat",
-          "displayName": "MessageCountFormat",
-          "enumValue": 2
-        },
-        {
-          "name": "FirmWareFormat",
-          "displayName": "FirmWareFormat",
-          "enumValue": 3
-        },
-        {
-          "name": "WifiStatusFormat",
-          "displayName": "WifiStatusFormat",
-          "enumValue": 4
-        },
-        {
-          "name": "SensorInfoFormat",
-          "displayName": "SensorInfoFormat",
-          "enumValue": 5
-        },
-        {
-          "name": "TelemetryWindFrequencyFormat",
-          "displayName": "TelemetryWindFrequencyFormat",
-          "enumValue": 6
-        },
-        {
-          "name": "ReportedFrequencyFormat",
-          "displayName": "ReportedFrequencyFormat",
-          "enumValue": 7
-        },
-        {
-          "name": "WindSpeedFormat",
-          "displayName": "WindSpeedFormat",
-          "enumValue": 8
-        },
-        {
-          "name": "WindStateFormat",
-          "displayName": "WindStateFormat",
-          "enumValue": 9
-        },
-        {
-          "name": "ReportedCountFormat",
-          "displayName": "ReportedCountFormat",
-          "enumValue": 10
-        }
-
-      ]
-    }
-  ],
   "contents": [
     {
       "@type": "Component",

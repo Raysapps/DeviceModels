@@ -65,96 +65,96 @@
     }
   ],
   "contents": [
-      {
-        "@type": "Property",
-        "name": "screenLine0",
-        "schema": "string",
-        "writable": true
-      },
-      {
+    {
+      "@type": "Property",
+      "name": "screenLine0",
+      "schema": "string",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "screenFormat1",
-        "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "screenFormat1",
+      "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "screenFormat2",
-        "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "screenFormat2",
+      "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "screenFormat3",
-        "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "screenFormat3",
+      "schema": "dtmi:com:raysapps:mxchipapp:displaytype;1",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "rgbLEDR",
-        "schema": "integer",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "rgbLEDR",
+      "schema": "integer",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "rgbLEDB",
-        "schema": "integer",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "rgbLEDB",
+      "schema": "integer",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "rgbLEDG",
-        "schema": "integer",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "rgbLEDG",
+      "schema": "integer",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "rgbLEDState",
-        "schema": "boolean",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "rgbLEDState",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "userLEDState",
-        "schema": "boolean",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "userLEDState",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "telemetryFrequencyInSeconds",
-        "schema": "integer",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "telemetryFrequencyInSeconds",
+      "schema": "integer",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "reportedFrequencyInSeconds",
-        "schema": "integer",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "reportedFrequencyInSeconds",
+      "schema": "integer",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "reportedFrequencyState",
-        "schema": "boolean",
-        "writable": true
-      },
-      {
+      "@type": "Property",
+      "name": "reportedFrequencyState",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
 
-        "@type": "Property",
-        "name": "telemetryFrequencyState",
-        "schema": "boolean" ,
-        "writable": true
-      },
+      "@type": "Property",
+      "name": "telemetryFrequencyState",
+      "schema": "boolean",
+      "writable": true
+    },
 
     {
       "@type": "Command",
