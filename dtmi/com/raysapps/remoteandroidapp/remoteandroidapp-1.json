@@ -1,0 +1,6 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:remoteandroidapp:remoteandroidapp;1",
+  "@type": "Interface",
+  "displayName": "RemoteAndroidApp"
+}
