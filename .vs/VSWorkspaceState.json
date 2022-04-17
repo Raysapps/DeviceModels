@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dtmi",
+    "\\dtmi\\com",
+    "\\dtmi\\com\\raysapps"
   ],
-  "SelectedNode": "\\C:\\devraysapps\\Github\\DeviceModels",
+  "SelectedNode": "\\dtmi\\com\\raysapps\\remotemxchipapp",
   "PreviewInSolutionExplorer": false
 }
