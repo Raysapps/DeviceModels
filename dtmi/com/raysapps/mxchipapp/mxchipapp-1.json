@@ -8,6 +8,7 @@
       "@type": "Component",
       "schema": "dtmi:com:raysapps:mxchipapp:mxchipappdeviceinformationreadproperty;1",
       "name": "deviceInfo",
+      "comment": "Yeah sure, but don't call me Sir",
       "displayName": "Device Info",
       "description": "MxChip Device Info"
     },

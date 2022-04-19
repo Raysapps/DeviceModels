@@ -3,8 +3,9 @@
     "",
     "\\dtmi",
     "\\dtmi\\com",
-    "\\dtmi\\com\\raysapps"
+    "\\dtmi\\com\\raysapps",
+    "\\dtmi\\com\\raysapps\\mxchipapp"
   ],
-  "SelectedNode": "\\dtmi\\com\\raysapps\\remotemxchipapp",
+  "SelectedNode": "\\dtmi\\com\\raysapps\\mxchipapp\\mxchipappallsensorstelemetryproperty-1.json",
   "PreviewInSolutionExplorer": false
 }
