@@ -1,0 +1,57 @@
+{
+  "links": {
+    "self": "index.json"
+  },
+  "models": {
+    "dtmi:com:raysapps:androidapp:androidapp;1": {
+      "displayName": "Androidapp"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipapp;1": {
+      "displayName": "MxChipApp"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationreadproperty;1": {
+      "displayName": "Acceleration"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappaccelerationtelemetry;1": {
+      "displayName": "AccelerationDTMI"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappallsensorstelemetryproperty;1": {
+      "displayName": "sensors"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappangularvelocityreadproperty;1": {
+      "displayName": "AngularVelocityDTMI"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappangularvelocitytelemetry;1": {
+      "displayName": "AngularVelocityDTMI"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappdeviceinformationreadproperty;1": {
+      "displayName": "Device Information"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappmagnetometerreadproperty;1": {
+      "displayName": "Magnetometer"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappmagnetometertelemetry;1": {
+      "displayName": "MagnetometerDTMI"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1": {
+      "displayName": "Sensors"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipappsensorstelemetry;1": {
+      "displayName": "Sensor Telemetry"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipuserinput;1": {
+      "displayName": "MxChipUserInput"
+    },
+    "dtmi:com:raysapps:mxchipapp:mxchipuserinputobjectwriteproperty;1": {
+      "displayName": "MxChipApp RaysApps ProtoType",
+      "description": "ProtoType Model for the Azure RTOS MXCHIP"
+    },
+    "dtmi:com:raysapps:remoteandroidapp:remoteandroidapp;1": {
+      "displayName": "RemoteAndroidApp"
+    },
+    "dtmi:com:raysapps:remotemxchipapp:remotemxchipapp;1": {
+      "displayName": "RemoteMxChipApp"
+    }
+  },
+  "version": "1.0"
+}
