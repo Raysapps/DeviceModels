@@ -3,9 +3,6 @@
     "self": "index.json"
   },
   "models": {
-    "dtmi:com:raysapps:androidapp:androidapp;1": {
-      "displayName": "Androidapp"
-    },
     "dtmi:com:raysapps:mxchipapp:mxchipapp;1": {
       "displayName": "MxChipApp"
     },
@@ -23,12 +20,6 @@
     },
     "dtmi:com:raysapps:mxchipapp:mxchiptelemetry;1": {
       "displayName": "mxChipTelemetry"
-    },
-    "dtmi:com:raysapps:remoteandroidapp:remoteandroidapp;1": {
-      "displayName": "RemoteAndroidApp"
-    },
-    "dtmi:com:raysapps:remotemxchipapp:remotemxchipapp;1": {
-      "displayName": "RemoteMxChipApp"
     }
   },
   "version": "1.0"

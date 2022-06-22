@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dtmi",
+    "\\dtmi\\com",
+    "\\dtmi\\com\\raysapps",
+    "\\dtmi\\com\\raysapps\\mxchipapp"
   ],
-  "SelectedNode": "\\C:\\devraysapps\\Github",
+  "SelectedNode": "\\dtmi\\com\\raysapps\\mxchipapp",
   "PreviewInSolutionExplorer": false
 }
