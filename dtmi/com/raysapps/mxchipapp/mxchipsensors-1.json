@@ -1,10 +1,25 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipsensors;1",
   "@type": "Interface",
-  "displayName": "Sensors",
+  "displayName": "mxChipSensors",
   "contents": [
     {
+
+      "@type": "Property",
+      "name": "interval",
+      "schema": "integer",
+      "writable": true
+    },
+    {
+
+      "@type": "Property",
+      "name": "reportedFrequencyState",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+
       "@type": [
         "Property",
         "Temperature"
@@ -183,6 +198,18 @@
               "name": "magnetometerZ",
               "displayName": "Magnetometer Z / mgauss",
               "schema": "double"
+
+            },
+            {
+              "name": "reportedFrequencyInSeconds",
+              "displayName": "Reported Frequency",
+              "schema": "integer"
+
+            },
+            {
+              "name": "reportedFrequencyState",
+              "displayName": "Reported Frequency State",
+              "schema": "boolean"
 
             }
 

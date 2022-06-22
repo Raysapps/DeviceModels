@@ -6,32 +6,23 @@
   "contents": [
     {
       "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappdeviceinformationreadproperty;1",
-      "name": "deviceInfo",
-      "comment": "Yeah sure, but don't call me Sir",
-      "displayName": "Device Info",
-      "description": "MxChip Device Info"
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipsettings;1",
+      "name": "mxChipSettings",
+      "displayName": "Configure device settings ",
+      "description": "Configure screen and LED display settings"
     },
     {
       "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipuserinput;1",
-      "name": "mxChipUserInput",
-      "displayName": "MxChip User Input",
-      "description": "MxChip Device Info"
-    },
-    
-    {
-      "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappsensorsreadproperty;1",
-      "name": "sensors",
-      "displayName": "Sensor Properties",
-      "description": "MxChip Sensors Info"
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchipsensors;1",
+      "name": "mxChipSensors",
+      "displayName": "View reported sensor values",
+      "description": "Report sensor values at specified interval"
     },
     {
       "@type": "Component",
-      "schema": "dtmi:com:raysapps:mxchipapp:mxchipappallsensorstelemetryproperty;1",
-      "name": "sensorTelemetry",
-      "displayName": "Sensor Telemetry",
+      "schema": "dtmi:com:raysapps:mxchipapp:mxchiptelemetry;1",
+      "name": "mxChipTelemetry",
+      "displayName": "View Sensor Telemetry",
       "description": "MxChip Sensors Info"
     }
 

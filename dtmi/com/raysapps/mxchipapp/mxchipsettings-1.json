@@ -1,8 +1,8 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipapp:mxchipuserinput;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchipsettings;1",
   "@type": "Interface",
-  "displayName": "MxChipUserInput",
+  "displayName": "mxChipSettings",
   "schemas": [
     {
       "@id": "dtmi:com:raysapps:mxchipapp:displaytype;1",
@@ -16,55 +16,74 @@
           "enumValue": 1
         },
         {
-          "name": "MessageCountFormat",
-          "displayName": "MessageCountFormat",
+          "name": "FirmWare",
+          "displayName": "FirmWare",
           "enumValue": 2
         },
         {
-          "name": "FirmWareFormat",
-          "displayName": "FirmWareFormat",
+          "name": "WifiStatus",
+          "displayName": "WifiStatus",
           "enumValue": 3
         },
         {
-          "name": "WifiStatusFormat",
-          "displayName": "WifiStatusFormat",
+          "name": "SensorInfo",
+          "displayName": "SensorInfo",
           "enumValue": 4
         },
         {
-          "name": "SensorInfoFormat",
-          "displayName": "SensorInfoFormat",
+          "name": "TelemetryCount",
+          "displayName": "TelemetryCount",
           "enumValue": 5
         },
         {
-          "name": "TelemetryFrequencyFormat",
-          "displayName": "TelemetryWindFrequencyFormat",
+          "name": "TelemetryInterval",
+          "displayName": "TelemetryInterval",
           "enumValue": 6
         },
         {
-          "name": "ReportedFrequencyFormat",
-          "displayName": "ReportedFrequencyFormat",
+          "name": "ReportedInterval",
+          "displayName": "ReportedInterval",
           "enumValue": 7
         },
         {
-          "name": "WindSpeedFormat",
-          "displayName": "WindSpeedFormat",
+          "name": "ReportedCount",
+          "displayName": "ReportedCount",
           "enumValue": 8
-        },
-        {
-          "name": "WindStateFormat",
-          "displayName": "WindStateFormat",
-          "enumValue": 9
-        },
-        {
-          "name": "ReportedCountFormat",
-          "displayName": "ReportedCountFormat",
-          "enumValue": 10
         }
 
       ]
     }
   ],
   "contents": [
+    {
+      "@type": "Property",
+      "name": "latestTimeStamp",
+      "displayName": "Latest updated timestamp",
+      "schema": "dateTime",
+      "description": "Last Updated Time"
+
+    },
+    {
+      "@type": "Property",
+      "name": "firmwareVersion",
+      "displayName": "Firmware Version",
+      "schema": "string",
+      "description": "FirmWare Version"
+    },
+    {
+      "@type": "Property",
+      "name": "wifiSSID",
+      "displayName": "WIFI SSID",
+      "schema": "string",
+      "description": "WIFI SSID"
+    },
+    {
+      "@type": "Property",
+      "name": "wifiIP",
+      "displayName": "Wifi IP",
+      "schema": "string",
+      "description": "Wifi IP Address"
+    },
     {
       "@type": "Property",
       "name": "screenLine0",
@@ -127,35 +146,6 @@
       "schema": "boolean",
       "writable": true
     },
-    {
-
-      "@type": "Property",
-      "name": "telemetryFrequencyInSeconds",
-      "schema": "integer",
-      "writable": true
-    },
-    {
-
-      "@type": "Property",
-      "name": "reportedFrequencyInSeconds",
-      "schema": "integer",
-      "writable": true
-    },
-    {
-
-      "@type": "Property",
-      "name": "reportedFrequencyState",
-      "schema": "boolean",
-      "writable": true
-    },
-    {
-
-      "@type": "Property",
-      "name": "telemetryFrequencyState",
-      "schema": "boolean",
-      "writable": true
-    },
-
     {
       "@type": "Command",
       "name": "reboot",
@@ -235,30 +225,6 @@
             {
               "name": "userLEDState",
               "displayName": "LED State",
-              "schema": "boolean"
-
-            },
-            {
-              "name": "telemetryFrequencyInSeconds",
-              "displayName": "Telemetry Frequency",
-              "schema": "integer"
-
-            },
-            {
-              "name": "telemetryFrequencyState",
-              "displayName": "Telemetry Frequency State",
-              "schema": "boolean"
-
-            },
-            {
-              "name": "reportedFrequencyInSeconds",
-              "displayName": "Reported Frequency",
-              "schema": "integer"
-
-            },
-            {
-              "name": "reportedFrequencyState",
-              "displayName": "Reported Frequency State",
               "schema": "boolean"
 
             }

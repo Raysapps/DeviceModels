@@ -1,8 +1,8 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:raysapps:mxchipapp:mxchipappallsensorstelemetryproperty;1",
+  "@id": "dtmi:com:raysapps:mxchipapp:mxchiptelemetry;1",
   "@type": "Interface",
-  "displayName": "sensors",
+  "displayName": "mxChipTelemetry",
   "contents": [
     {
       "@type": [
@@ -111,6 +111,48 @@
       "name": "magnetometerZ",
       "displayName": "Magnetometer Z / mgauss",
       "schema": "double"
+    },
+
+    {
+
+      "@type": "Property",
+      "name": "fetchTempHumidPressure",
+      "displayName": "Fetch Temperature, Humidity and Pressure",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+
+      "@type": "Property",
+      "name": "fetchMagnetometerParams",
+      "displayName": "Fetch Gyroscope",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+
+      "@type": "Property",
+      "name": "fetchGyropscopeParams",
+      "displayName": "Fetch Gyroscope",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+      "@type": [ "Property", "TimeSpan" ],
+      "name": "interval",
+      "displayName": "Telemetry Interval",
+      "description": "Set Telemetry Interval",
+      "schema": "integer",
+      "unit": "second",
+      "writable": true
+
+    },
+    {
+
+      "@type": "Property",
+      "name": "Fetch",
+      "schema": "boolean",
+      "writable": true
     }
 
 
